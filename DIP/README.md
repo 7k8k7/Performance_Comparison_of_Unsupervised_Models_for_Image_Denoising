@@ -1,4 +1,4 @@
-#concept
+# Concept and result
 The original idea comes form https://dmitryulyanov.github.io/deep_image_prior
 Our team works on DIP by writing a program using its idea and features and tests its performance on denoising BSDS300 image test sets.
 The average psnr_gt is 29.60 when denoising noisy images added gaussion noise with segma 15
@@ -19,7 +19,7 @@ Here is the list of libraries you need to install to execute the code:
 - matplotlib
 - scikit-image
 
-#excecute
+# Excecute
 
 1.Change the input and output folder before using the program.
 2.Change the noise_type, using the one you want. Change sigma or noise_intensity according to the noise type you want.
